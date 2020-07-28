@@ -1,0 +1,102 @@
+@media (max-width: 970px) {
+    #page-home {
+        background: none;
+    }
+
+    #modal {
+        width: 20px;
+    }
+
+    #page-home .content{
+        align-items: center;
+        text-align: center;
+    }
+
+    #page-home header a{
+        position: absolute;
+        bottom: 48px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #page-home main {
+        align-items: center;
+    }
+
+    #page-search-results {
+        background-position-x: 70vw;
+    }
+
+    #page-search-results .cards{
+        grid-template-columns: 1fr;
+    }
+
+    #page-search-results .cards img{
+        height: 200px;
+    }
+    #page-search-results .card h1{
+        text-align: center;
+    }
+    
+    #page-search-results .card h3{
+        text-align: center;
+    }
+    
+    #page-search-results .card p{
+        text-align: center;
+    }
+
+    #page-create-point h1{
+        text-align: center;
+    }
+
+    #page-create-point .field-group {
+        flex-direction: column;
+    }
+
+    #page-create-point .field-group .field + .field{
+        margin-left: 0;
+    }
+
+    #page-create-point .items-grid{
+        grid-template-columns: 1fr;
+    }
+    #page-create-point form button{
+        width: 305px;
+    }
+
+    #page-create-point form legend{
+        display: block;
+        text-align: center;
+    }
+
+    #page-create-point form legend span{
+        padding-top: 10%;
+    }
+}
+
+@media (max-height: 860px){
+    #page-home {
+        background-position-y: 200px;
+    }
+}
+
+@media (max-width: 1500px){ /* Tela do Notebook */
+    #modal {
+        width: 100vw;
+    }
+
+    #page-home {
+        background-size: 650px;
+        background-position-y: 25vh;
+        background-position-x: 50vw;
+    }
+
+    #page-home main h1{
+        font-size: 44px;
+    }
+
+    #page-home main p{
+        font-size: 18px;
+    }
+}
